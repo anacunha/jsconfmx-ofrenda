@@ -13,6 +13,13 @@ No necesitas instalar nada. Puedes hacer todos los cambios desde el editor de Gi
 | TODO 3 | `styles.css` | Elige el color de tu ofrenda |
 | TODO 4 | `script.js` | Completa el código que enciende la vela |
 
+## Retos extra (opcionales)
+
+| Reto | Archivo | Qué haces |
+|---|---|---|
+| RETO EXTRA 1 | `index.html` | Pon ofrendas en el camino de pétalos |
+| RETO EXTRA 2 | `index.html` y `script.js` | Crea tu propia interacción con un botón nuevo |
+
 Tu dedicatoria puede ser para una persona, una mascota, un personaje, un lugar o una tradición. No publiques datos personales.
 
 ## Publicar con AWS Amplify
