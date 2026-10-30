@@ -8,7 +8,7 @@ No necesitas instalar nada. Puedes hacer todos los cambios desde el editor de Gi
 
 | Paso | Archivo | Qué haces |
 |---|---|---|
-| TODO 1 | `index.html` | Escribe tu título o alias |
+| TODO 1 | `index.html` | Escribe el título de tu ofrenda |
 | TODO 2 | `index.html` | Escribe tu dedicatoria |
 | TODO 3 | `styles.css` | Elige el color de tu ofrenda |
 | TODO 4 | `script.js` | Completa el código que enciende la vela |
