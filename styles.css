@@ -79,7 +79,7 @@ body {
   width: clamp(54px, 8.5vw, 88px);
   aspect-ratio: 100 / 120;
   transform-origin: 50% 0;
-  animation: mecerse var(--ritmo, 7s) ease-in-out infinite alternate;
+  animation: mecerse 7s ease-in-out infinite alternate;
 }
 
 .bandera:nth-child(5n + 1) { fill: var(--rosa); }
@@ -89,8 +89,8 @@ body {
 .bandera:nth-child(5n + 5) { fill: #FFD23F; animation-delay: -3s; }
 
 @keyframes mecerse {
-  from { transform: rotate(calc(var(--giro, 2.5deg) * -1)); }
-  to { transform: rotate(var(--giro, 2.5deg)); }
+  from { transform: rotate(-2.5deg); }
+  to { transform: rotate(2.5deg); }
 }
 
 /* Página */
@@ -350,27 +350,6 @@ body {
 .veladora:nth-child(3) { right: 10%; --retraso: 0.25s; }
 .veladora:nth-child(4) { right: 3%; --retraso: 0.45s; }
 
-/* Camino de pétalos con las ofrendas del reto extra 1 */
-
-.ofrendas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 0.25rem 1rem;
-  width: 96%;
-  min-height: 3.75rem;
-  margin-top: 1.25rem;
-  padding: 0 0.5rem 14px;
-  background: radial-gradient(circle, var(--cempasuchil) 0 3px, transparent 3.5px) 0 100% / 14px 8px repeat-x;
-}
-
-.objeto {
-  font-size: clamp(1.9rem, 6vw, 2.5rem);
-  line-height: 1;
-  filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.35));
-}
-
 /* En pantallas pequeñas, menos flores y veladoras para que no se encimen */
 @media (max-width: 480px) {
   .flor-b,
@@ -419,13 +398,6 @@ body {
   outline-offset: 4px;
 }
 
-.boton-secundario {
-  margin-top: 0.85rem;
-  border-color: rgb(251 235 211 / 0.5);
-  background: transparent;
-  color: var(--cera);
-}
-
 .pie {
   padding: 1.5rem 1.25rem 2rem;
   text-align: center;
@@ -468,38 +440,9 @@ body {
   transition-delay: 0.35s;
 }
 
-.encendida .boton:not(.boton-secundario) {
+.encendida .boton {
   background: transparent;
   color: var(--acento);
-}
-
-/* Efectos listos para el reto extra 2 */
-
-.fiesta {
-  --ritmo: 0.5s;
-  --giro: 10deg;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background-image:
-    radial-gradient(1.5px 1.5px at 22px 34px, #FFF, transparent),
-    radial-gradient(1px 1px at 96px 120px, #FFF, transparent),
-    radial-gradient(2px 2px at 160px 52px, #FFE68A, transparent),
-    radial-gradient(1px 1px at 210px 190px, #FFF, transparent),
-    radial-gradient(1.5px 1.5px at 60px 210px, #FFF, transparent),
-    radial-gradient(1px 1px at 130px 250px, #FFE68A, transparent);
-  background-size: 260px 280px;
-  opacity: 0;
-  transition: opacity 1.5s ease;
-  pointer-events: none;
-}
-
-.estrellas::before {
-  opacity: 1;
 }
 
 @keyframes parpadeo {
