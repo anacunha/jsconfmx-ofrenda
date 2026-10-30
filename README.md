@@ -12,6 +12,7 @@ No necesitas instalar nada. Puedes hacer todos los cambios desde el editor de Gi
 | TODO 2 | `index.html` | Escribe tu dedicatoria |
 | TODO 3 | `styles.css` | Elige el color de tu ofrenda |
 | TODO 4 | `script.js` | Completa el código que enciende la vela |
+| Opcional | `index.html` | Pon una foto junto a la vela |
 
 Tu dedicatoria puede ser para una persona, una mascota o un personaje. Tu página va a ser pública, así que comparte solo lo que quieras que cualquiera pueda leer.
 
