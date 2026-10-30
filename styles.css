@@ -4,7 +4,7 @@
     Cempasúchil  #FF9F1C
     Rosa mexicano #FF4FA3
     Turquesa     #3FD0C2
-    Amarillo     #FFD23F
+    Rojo JSConf  #F22727
     Lila         #B98CFF
   Ejemplo: --acento: #FF4FA3;
 */
@@ -23,7 +23,7 @@
   --morado: #7B2FBE;
   --morado-profundo: #3A1B66;
 
-  --fuente-titulo: "Alfa Slab One", "Rockwell", Georgia, serif;
+  --fuente-titulo: "Chango", "Arial Black", sans-serif;
   --fuente-texto: "Work Sans", system-ui, sans-serif;
 }
 
@@ -123,12 +123,10 @@ body {
   font-size: clamp(2.5rem, 8.5vw, 5.25rem);
   font-weight: 400;
   line-height: 1.05;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.03em;
   color: var(--acento);
   text-wrap: balance;
-  text-shadow:
-    3px 3px 0 var(--morado),
-    6px 6px 0 var(--morado-profundo);
+  text-shadow: -4px 4px 0 #F9CA22;
 }
 
 /* Altar */
